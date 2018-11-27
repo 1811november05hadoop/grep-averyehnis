@@ -1,0 +1,19 @@
+1. cat cities.txt | grep '^Z'
+
+2. cat cities.txt | grep 'gan$'
+
+3. cat cities.txt | grep '^[ADE]'
+
+4. 
+
+5. cat cities.txt | grep -v '^C'
+
+6. cat cities.txt | egrep '[[:alpha:]-]{14}'
+
+7. cat cities.txt | grep -c '^B'
+
+8. cat cities.txt | grep -E -o 'd' | wc 
+
+9.
+
+10.
