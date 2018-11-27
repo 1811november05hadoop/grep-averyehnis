@@ -4,16 +4,16 @@
 
 3. cat cities.txt | grep '^[ADE]'
 
-4. 
+4. cat cities.txt | grep '\<.ar' 
 
 5. cat cities.txt | grep -v '^C'
 
-6. cat cities.txt | egrep '[[:alpha:]-]{14}'
+6. cat cities.txt | grep -v '[ ]' | egrep '.{14,}'
 
 7. cat cities.txt | grep -c '^B'
 
 8. cat cities.txt | grep -E -o 'd' | wc 
 
-9.
+9. cat cities.txt | grep -E '(.)\1{1}$'
 
 10.
