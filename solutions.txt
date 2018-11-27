@@ -16,4 +16,5 @@
 
 9. cat cities.txt | grep -E '(.)\1{1}$'
 
-10.
+10. cat cities.txt | grep -iw '^\(.\)\(.\).\2\1'
+(This one I don't quite get. Why do the parentheses need to be escaped?)
